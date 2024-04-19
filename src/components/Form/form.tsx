@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react';
-import './form.css';
+import './form.scss';
 
 export interface Data {
   name: string;

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './App.css';
+import './App.scss';
 import { Form, Data } from './components/Form/form';
 import { Joke } from './components/Joke/joke';
 import { ArrowUturnLeftIcon } from '@heroicons/react/24/outline';
