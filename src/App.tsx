@@ -4,7 +4,7 @@ import { Form, Data } from './components/Form/form';
 import { Joke } from './components/Joke/joke';
 import { ArrowUturnLeftIcon } from '@heroicons/react/24/outline';
 import sourceOfJokes from './source/jokes-data';
-import { JokeStructure } from './source/model';
+import { JokeStructure } from './source/joke-model';
 
 function App() {
   const [userName, setUserName] = useState('');
@@ -47,7 +47,7 @@ function App() {
               key={index}
               setup={item.setup}
               punchline={item.punchline}
-              showRating={false}
+              showRating={!!jokesData}
             />
           ))}
           <span

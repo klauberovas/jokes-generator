@@ -1,4 +1,4 @@
-import { JokeStructure } from './model.js';
+import { JokeStructure } from './joke-model.js';
 
 const sourceOfJokes: JokeStructure[] = [
   {
