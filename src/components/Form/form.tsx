@@ -26,7 +26,7 @@ export const Form: React.FC<FormProp> = ({ onSubmitData }) => {
     options.push(i + 1);
   }
 
-  //odeslání dat
+  //odeslání dat do App
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>): void => {
     e.preventDefault();
     onSubmitData(formData);

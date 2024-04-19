@@ -42,9 +42,9 @@ function App() {
         <div className="app__container">
           <h2>{userName}</h2>
           <h3>There are jokes for you!</h3>
-          {jokesData.map((item, index) => (
+          {jokesData.map((item) => (
             <Joke
-              key={index}
+              key={item.id}
               setup={item.setup}
               punchline={item.punchline}
               showRating={!!jokesData}
